@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# Course data and generated files
+data/raw/
+data/processed/
+data/embeddings/
+
+# Generated outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local model/cache files
+.ollama/
+
+# OS files
+.DS_Store
+Thumbs.db
