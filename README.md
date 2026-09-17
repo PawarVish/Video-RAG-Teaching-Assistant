@@ -86,3 +86,24 @@ The system converts video/audio content into transcripts, creates semantic embed
                          ▼
                  Answer + Source
                   + Timestamp
+
+
+---
+
+## 🖥️ Application Screenshots
+
+### Application Interface
+
+![Video RAG Teaching Assistant UI](docs/screenshots/01_application_ui.png)
+
+### RAG Answer with Source and Timestamp
+
+![RAG Answer](docs/screenshots/02_rag_answer.png)
+
+### Course Question
+
+![Course Question](docs/screenshots/03_question.png)
+
+### Out-of-Course Question Detection
+
+![Invalid Question](docs/screenshots/04_invalid_question.png)
