@@ -87,6 +87,7 @@ The system converts video/audio content into transcripts, creates semantic embed
                 Answer + Source
                   + Timestamp
 ---
+---
 
 ## 🖥️ Application Screenshots
 
