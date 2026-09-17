@@ -25,6 +25,8 @@ The system converts video/audio content into transcripts, creates semantic embed
 
 ## 🧠 System Architecture
 
+![Video RAG Teaching Assistant Architecture](docs/architecture.png)
+
 ```text
                     VIDEO / AUDIO
                          │
