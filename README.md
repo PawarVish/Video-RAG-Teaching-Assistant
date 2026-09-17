@@ -33,17 +33,17 @@ The system converts video/audio content into transcripts, creates semantic embed
                          ▼
                 ┌─────────────────┐
                 │     FFmpeg      │
-                │ Video → MP3     │
+                │   Video → MP3   │
                 └────────┬────────┘
                          │
                          ▼
                 ┌─────────────────┐
                 │     Whisper     │
-                │ Speech → Text   │
+                │  Speech → Text  │
                 └────────┬────────┘
                          │
                          ▼
-              Timestamped JSON
+                  Timestamped JSON
                          │
                          ▼
                 ┌─────────────────┐
@@ -57,7 +57,7 @@ The system converts video/audio content into transcripts, creates semantic embed
                 └────────┬────────┘
                          │
                          ▼
-                 embeddings.joblib
+                  Knowledge Base
                          │
                          │
                   USER QUESTION
@@ -69,25 +69,23 @@ The system converts video/audio content into transcripts, creates semantic embed
                 └────────┬────────┘
                          │
                          ▼
-                Cosine Similarity
+                  Cosine Similarity
                          │
                          ▼
-                 Relevant Chunks
+                   Relevant Chunks
                          │
                          ▼
                 ┌─────────────────┐
-                │  Llama 3.2 1B  │
+                │   Llama 3.2 1B  │
                 │ Answer Generation│
                 └────────┬────────┘
                          │
                          ▼
-                Grounding Validation
+                 Grounding Validation
                          │
                          ▼
-                 Answer + Source
+                Answer + Source
                   + Timestamp
-
-
 ---
 
 ## 🖥️ Application Screenshots
